@@ -15,4 +15,20 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="Pages\Index.razor" />
+    <AdditionalFiles Include="Shared\MainLayout.razor" />
+    <AdditionalFiles Include="Shared\NavMenu.razor" />
+    <AdditionalFiles Include="Shared\SurveyPrompt.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Shared\MainLayout.razor.css" />
+    <Content Include="Shared\NavMenu.razor.css" />
+  </ItemGroup>
+
 </Project>
