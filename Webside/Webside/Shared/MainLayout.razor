@@ -1,17 +1,37 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+    <main  class="box">
+        <div class="px-4 top-row row-element header">
+            <NavMenu />
         </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
+        <div class="overflow-auto row-element content">
+            <div>
+                <article class="content w-100 p-0" style="overflow-x: hidden">
+                    @Body
+                </article>
+            </div>
+            <footer>
+                <div class="text-center">
+                    <span class="oi oi-map-marker"></span><br/>
+                    <strong>Adresse</strong><br/>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Dronningensgade+97++Bygning+D,+1.+sal.+7000+Fredericia">
+                        Dronningensgade 97  Bygning D, 1. sal.<br/>
+                        7000 Fredericia <br/>
+                        Denmark<br/>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <span class="oi oi-phone"></span><br/>
+                    <strong>Phone: </strong><a href="tel:+4526851390" style="">26851390</a>
+                </div>
+                <div class="text-center">
+                    <span class="oi oi-envelope-closed"></span><br/>
+                    <strong>Email: </strong><a class="text-nowrap" href="mailto:tanjalanger@protonmail.com">tanjalanger@protonmail.com</a>
+                </div>
+            </footer>
+        </div>
+        <div class="row-element footer"></div>
     </main>
 </div>

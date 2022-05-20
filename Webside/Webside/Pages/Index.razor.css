@@ -1,0 +1,12 @@
+﻿div.Image {
+    padding-left: 2rem !important;
+    padding-right: 1.5rem !important;
+    background: darkorange;
+    /*background-image: url("_content/Webside/Reasources/Image/IMG_1029.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 360 / 291;
+    color: white;
+    text-shadow: black 0.1rem 0.1rem 0.2rem;
+    font-family: "Times New Roman", Times, serif;
+}

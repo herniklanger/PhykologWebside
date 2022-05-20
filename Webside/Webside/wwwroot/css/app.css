@@ -62,3 +62,27 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.box .row-element.header {
+    flex: 0 1 auto;
+    z-index:0;
+    /*
+    The above is shorthand for:
+    flex-grow: 0,
+    flex-shrink: 1,
+    flex-basis: auto
+    */
+}
+
+.box .row-element.content {
+    flex: 1 1 auto;
+}
+.box .row.footer {
+    flex: 0 1 0px;
+}
