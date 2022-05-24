@@ -1,0 +1,7 @@
+﻿.InfoCard{
+    width: max(calc(100% - 220px), 350px);
+}
+.CardColor{
+    background: orange;
+    outline: 1px solid black;
+}

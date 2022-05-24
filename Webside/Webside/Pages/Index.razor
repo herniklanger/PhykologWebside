@@ -1,7 +1,7 @@
 ﻿@page "/"
-
+@inject BasicData _basicData
 <PageTitle>Index</PageTitle>
 
-<div class="Image w-100" style="background-image: url('https://localhost:7274/_content/Webside/Reasources/Image/IMG_1029.jpg');">
+<div class="Image w-100" style="background-image: url(@($"{_basicData.Data["base address"]}/_content/Webside/Reasources/Image/Welcom.jpg"));">
     <h1>Psykolog<br/>Tanja Langer</h1>
 </div>
